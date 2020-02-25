@@ -1,0 +1,74 @@
+body {
+    font-family: quasimoda, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+p {
+    font-family: anziano, sans-serif;
+}
+
+.main-nav .brand {
+    font-family: anziano, serif;
+    text-transform: none;
+    letter-spacing: 0;
+    font-size: 1.5em;
+    font-style: italic;
+    padding: 0.5em;
+}
+
+
+
+/* ---- Nav Style ----*/
+
+.main-nav {
+    background: #343434;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+.main-nav ul {
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+
+.main-nav li {
+    display: inline-block;
+    list-style: none;
+}
+
+.main-nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: 200;
+    padding: 1em;
+    display: inline-block;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+}
+
+.main-nav .active {
+    color: aquamarine;
+}
+
+/*--- end nav style ----*/
+
+/*--- footer style ----*/
+footer {
+    padding: 4em;
+    background: #cccccc;
+    background-image: url(../img/oriental-tiles.png)
+}
+
+footer p {
+    text-align: center;
+    color: #d1d1d1;
+    font-family: quasimoda, sans-serif;
+}
